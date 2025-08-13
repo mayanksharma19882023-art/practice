@@ -74,7 +74,7 @@
                 @Html.DisplayFor(modelItem => item.City)
             </td>
             <td>
-                    <a asp-action="Edit" asp-controller="Registrations" asp-route-id="/@item.Id" href="/api/Registrations/Edit/@item.Id">Edit</a> |
+                    <a href="/api/Registrations/Edit/@item.Id">Edit</a> |
                     <a asp-action="Details" asp-route-id="@item.Id" asp-route-id="@item.Id">Details</a> |
                     <a asp-action="Delete" asp-route-id="@item.Id" asp-route-id="@item.Id">Delete</a>
             </td>
